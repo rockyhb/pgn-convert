@@ -1,0 +1,21 @@
+usage: convert.py [-h] [-o OUT] -e EVENT -r ROUND -w WHITE -b BLACK
+                  [--engine ENGINE]
+                  pgn_file
+
+Convert PGNs
+
+positional arguments:
+  pgn_file              PGN file to read from
+
+options:
+  -h, --help            show this help message and exit
+  -o OUT, --out OUT     File to write result to
+  -e EVENT, --event EVENT
+                        Set event header
+  -r ROUND, --round ROUND
+                        Set round
+  -w WHITE, --white WHITE
+                        Set white player
+  -b BLACK, --black BLACK
+                        Set black player
+  --engine ENGINE       Set path to stockfish engine
