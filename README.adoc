@@ -1,3 +1,5 @@
+[code]
+----
 usage: convert.py [-h] [-o OUT] -e EVENT -r ROUND -w WHITE -b BLACK
                   [--engine ENGINE]
                   pgn_file
@@ -19,3 +21,5 @@ options:
   -b BLACK, --black BLACK
                         Set black player
   --engine ENGINE       Set path to stockfish engine
+----
+
